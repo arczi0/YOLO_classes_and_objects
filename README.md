@@ -1,4 +1,4 @@
-# Visualise objects in YOLO training dataset
+# Visualise number of objects in YOLO training dataset
 
 ## How to use?
 
