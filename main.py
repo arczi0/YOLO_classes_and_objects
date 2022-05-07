@@ -19,14 +19,14 @@ print("Classes: " + str(classes))
 
 unique = np.unique(classes)
 
-obiekt = []
-ilosc = []
+object = []
+quantity = []
 
 for i in unique:
     print("Class " + i, "occurs: " + str(classes.count(i)) + " x")
-    obiekt.append(i)
-    ilosc.append(classes.count(i))
-    plt.bar(obiekt, ilosc)
+    object.append(i)
+    quantity.append(classes.count(i))
+    plt.bar(object, quantity)
 
 plt.title("Number of classes in the set")
 plt.show()
