@@ -7,7 +7,7 @@ import os
 directory = os.getcwd()
 classes = []
 
-with open('merge_from_ofoct.txt', 'r') as txt:
+with open('merged.txt', 'r') as txt:
     lines = txt.readlines()
 
 for line in lines:
